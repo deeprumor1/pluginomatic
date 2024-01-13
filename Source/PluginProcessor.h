@@ -8,8 +8,8 @@
 
 #pragma once
 
+#include "DspFaust.h"
 #include <JuceHeader.h>
-#include <DspFaust.h>
 
 
 
