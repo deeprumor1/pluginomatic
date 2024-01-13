@@ -17,12 +17,12 @@ PluginomaticAudioProcessorEditor::PluginomaticAudioProcessorEditor (Pluginomatic
     // editor's size to whatever you need it to be.
     setSize (900, 500);
 
-    pmButton.setButtonText("PM");
+    pmButton.setButtonText("PMt");
     pmButton.addListener(this);
     addAndMakeVisible(pmButton);
 
     addAndMakeVisible(newPage); // Add this line
-    newPage.setVisible(false);  // Initially hidden
+    newPage.setVisible(false);  // Initially hiddens
 
     newPage.setBounds(getLocalBounds());
 
